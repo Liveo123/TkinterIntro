@@ -29,6 +29,7 @@ button.config(image=logo, compound=LEFT)
 # Use a small logo instead of a big one
 # sample every 5th pixel across (x) and down (y)
 smallLogo = logo.subsample(5,5)
+button.config(image=smallLogo, compound=LEFT)
 
 # Run the main loop to wait for events and
 # update the UI
