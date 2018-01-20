@@ -12,9 +12,12 @@ root = Tk()
 button = ttk.Button(root, text='Click me!!!')
 button.pack()
 
+
 # Button event (i.e. run when button clicked)
 def callback():
     print("Clicked")
+
+
 button.config(command=callback)
 
 # Test button state (disable and then enable)
@@ -28,7 +31,7 @@ button.config(image=logo, compound=LEFT)
 
 # Use a small logo instead of a big one
 # sample every 5th pixel across (x) and down (y)
-smallLogo = logo.subsample(5,5)
+smallLogo = logo.subsample(5, 5)
 button.config(image=smallLogo, compound=LEFT)
 
 # Run the main loop to wait for events and
