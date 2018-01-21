@@ -1,8 +1,3 @@
-_
-DEBUG:root:True
-DEBUG:root:True
-DEBUG:root:True
-DEBUG:root:True
-DEBUG:root:True
-DEBUG:root:True
-DEBUG:root:True
+
+DEBUG:root:b;ah
+DEBUG:root:pass
